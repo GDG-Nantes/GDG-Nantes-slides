@@ -1,0 +1,110 @@
+//
+// Génération
+//
+// dzslides sans embarquer les ressources
+// asciidoc <nomfichier>.asciidoc
+//
+// dzslides en embarquant les ressources
+// asciidoc -a data-uri -a linkcss! <nomfichier>.asciidoc
+= Soirée Workshops HTML5
+Equipe GDG Nantes
+v1.0
+:title: Soirée Workshops HTML5
+:subtitle: HTML5 Pour les créatifs
+:description: Une description.
+:copyright: Copyright 2013 GDG Nantes
+:website: http://gdgnantes.com
+:slidesurl: fdgd
+// à remplacer par le chemin relatif de notre path d'image
+//:imagesdir: 
+:backend: dzslides
+:linkcss: true
+:dzslides-style: gdg
+:dzslides-transition: fade
+//:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+:dzslides-highlight: github
+:dzslides-autoplay: 0
+// disable syntax highlighting unless turned on explicitly
+:syntax: no-highlight
+// Possibilité d'ajouter son propre css (il faut spécifier le chemin complet)
+:sqli-custom-css: css/custom.css
+
+== HTML5 Pour les créatifs ! 
+
+image::images/gdgnantes.png[role="gdg_accueil"]
+
+image::images/stereolux_logo_300x100.jpg[role="stereolux_accueil"]
+
+image::images/euriware.jpg[role="annuel_1 sponsor"]
+
+image::images/logo-zenika.jpg[role="annuel_2 sponsor"]
+
+image::images/logoSII_333x216.gif[role="annuel_3 sponsor"]
+
+[{intro}]
+== HTML5 
+=== Petit retour sur les possibilités
+
+image::images/HTML5_Logo_512.png["Logo",role="icone"]
+
+== HTML5
+
+=== Qu'est ce qu'il y a dedans ?
+
+image::images/html5-infographics-features.jpg[role="html5_features"]
+
+== HTML5 : Plus concrètement
+
+=== Pour le web
+
+image::images/html5-infographics-features-web.jpg[role="html5_features_web"]
+
+== HTML5 : Plus concrètement
+
+=== Pour les mobiles
+
+image::images/html5-infographics-features-mobile.jpg[role="html5_features_phone"]
+
+[{intro}]
+== Exemples
+
+image::images/html5_rocks.png[role="icone"]
+
+== Web Audio API
+
+== Canvas
+
+== Web GL
+
+== Sensors 
+
+// Montrer le truc de la page chrome qui se transforme en jeux (cf chrome experiments)
+
+== Temps réel
+
+// Parler du web RTC et des websockets pour la création collaborative (trouver un exemple)
+
+[{intro}]
+== Et ce soir ?
+
+image::images/gdgnantes.png[role="icone"]
+
+== Au programme ce soir
+
+image::images/responsive_web_design.png[role="float-left", height="75"]
+Responsive design avec Julien Bodet +
+ +
+ +
+ +
+
+image::images/angularjs_logo.png[role="float-left", height="75"]
+Angular JS avec Antoine Richard +
+ +
+ +
+ +
+
+image::images/three_js.jpg[role="float-left", height="75"] 
+WebGL avec Jean-François Garreau
+
+[role="intro fond_fin"]
+== A votre tour  !

@@ -1,0 +1,84 @@
+/*
+ Theme: Default
+ Fonts: Oswald
+
+ <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+*/
+
+img.float-left{
+  float: left;
+  margin-right: 40px;
+}
+
+img.float-right{
+  float: right;
+  margin-left: 10px;
+}
+
+/**
+*
+* Accueil
+*
+*/
+
+img.annuel_1{
+  left: 100px;
+}
+
+img.annuel_2{
+  left: 50%;
+  margin-left: -75px;
+}
+
+img.annuel_3{
+  right: 100px;
+}
+
+img.sponsor{
+  position: absolute;
+  width: 150px;
+  bottom: 200px;
+}
+
+img.gdg_accueil{
+  width: 200px;
+  position: absolute;
+  left: 200px;
+}
+
+img.stereolux_accueil{
+  top: 150px;
+  height: 150px;
+  position: absolute;
+  right: 135px;
+}
+
+/**
+*
+* Pages HTML5 presentation
+*
+*/
+
+.html5_features,.html5_features_web,.html5_features_phone{
+  position: absolute;
+  left: 50%;
+}
+
+.html5_features{
+  margin-left: -497px;
+  margin-top: 69px;
+  top: 30%;
+}
+
+.html5_features_web{
+  margin-left: -470px;
+  margin-top: 131px; 
+  top: 20%;
+}
+
+.html5_features_phone{
+  margin-left: -495px;
+  margin-top: 137px;
+  top: 25%;
+}
