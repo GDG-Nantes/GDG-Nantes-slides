@@ -72,17 +72,34 @@ image::images/html5_rocks.png[role="icone"]
 
 == Web Audio API
 
+image::images/do_a_dive_in_music.jpg[height="400",role="middle"]
+
+http://do.adive.in/
+
 == Canvas
 
+// Backamap
+
 == Web GL
+
+image::images/rome.jpg[height="400",role="middle"]
+
+http://www.ro.me/
 
 == Sensors 
 
 // Montrer le truc de la page chrome qui se transforme en jeux (cf chrome experiments)
 
+image::images/chrome_maze.jpg[height="400",role="middle"]
+
+http://chrome.com/maze/
+
 == Temps réel
 
 // Parler du web RTC et des websockets pour la création collaborative (trouver un exemple)
+image::images/plink.jpg[height="400",role="middle"]
+http://labs.dinahmoe.com/plink/
+
 
 [{intro}]
 == Et ce soir ?
