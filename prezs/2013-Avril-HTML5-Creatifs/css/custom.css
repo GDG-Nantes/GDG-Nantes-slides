@@ -1,0 +1,83 @@
+/*
+ Theme: Default
+ Fonts: Oswald
+
+ <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+*/
+
+img.float-left{
+  float: left;
+  margin-right: 40px;
+}
+
+img.float-right{
+  float: right;
+  margin-left: 10px;
+}
+
+
+img.sommaire, span.sommaire > img{
+  height: 60px;
+}
+
+
+p.surround{
+font-weight: bold;
+font-size: 1em;
+color: #DA0E1A;
+text-align: left;
+}
+
+table.table_version{
+  position: absolute;
+  top: 4em;
+}
+
+table.table_version td, table.table_version th {
+  font-size: 14px;
+}
+
+.img_version{
+  margin-top:7em;
+}
+
+.dev_code{
+  position: absolute;
+  top: 6em;
+  left: 15em;
+  width: 5%;
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  transform: rotate(-25deg);
+}
+
+.dev_gen{
+  position: absolute;
+  top: 9.4em;
+  left: 15em;
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  transform: rotate(36deg);
+  width: 5%;
+}
+
+.dev_res{
+  position: absolute;
+  left: 15em;
+  top: 16em;
+  width: 5%;
+  -webkit-transform: rotate(-100deg);
+  -moz-transform: rotate(-100deg);
+  transform: rotate(-100deg);
+}
+
+.dev_manifest{
+  position: absolute;
+  left: 15em;
+  top: 23em;
+  width: 5%;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg);
+}

@@ -1,0 +1,349 @@
+//
+// Génération
+//
+// dzslides sans embarquer les ressources
+// asciidoc <nomfichier>.asciidoc
+//
+// dzslides en embarquant les ressources
+// asciidoc -a data-uri -a linkcss! <nomfichier>.asciidoc
+= Titre de la présentation, avec *mise en avant* de texte sous **différentes formes**.
+Equipe SQLI
+v1.0
+:title: Titre de la présentation, avec mise en avant de texte sous différentes formes.
+:subtitle: Un sous titre assez long qui peut aller jusqu'à 2 lignes
+:description: Une description.
+:copyright: Copyright 2013 SQLI
+:website: dsffsd
+:slidesurl: fdgd
+// à remplacer par le chemin relatif de notre path d'image
+//:imagesdir: 
+:backend: dzslides
+:linkcss: true
+:dzslides-style: gdg
+:dzslides-transition: fade
+//:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+:dzslides-highlight: github
+:dzslides-autoplay: 0
+// disable syntax highlighting unless turned on explicitly
+:syntax: no-highlight
+// Possibilité d'ajouter son propre css (il faut spécifier le chemin complet)
+//:sqli-custom-css: css/gdg.css
+
+== Une diapo
+
+== Une autre diapo
+
+=== Sous-titre
+
+== Titre
+
+=== Sous-titre
+
+* Puce Niveau 1
+
+    Texte de la puce Niveau 1
+
+** Puce niveau 2
+
+    Texte de la puce Niveau 2
+
+*** Puce niveau 3
+
+    Texte de la puce Niveau 3
+
+[{topic}]
+== Une diapo de sommaire
+
+* Point 1
+* Point 2
+* ...
+* Point *n*
+
+[{intro}]
+// le fond est ici choisi
+== Une diapo d'intercalaire avec un fond spécifié
+// Image de fond (un seul ":")
+//image:dzslides/images/fond_3.jpg[fond]
+
+// à distinguer d'une image classique ("::")
+image::images/GDG-Logo_rect_gris.png["Logo",role="icone"]
+
+
+===  un sous titre de page intercalaire
+// Ne pas mettre de texte sur ces pages
+
+
+[role="intro fond_1"]
+// Inline images are considers as background images
+== Une diapo d'intercalaire avec le fond 1
+
+[role="intro fond_2"]
+// Inline images are considers as background images
+== Une diapo d'intercalaire avec le fond 2
+
+[role="intro fond_3"]
+// Inline images are considers as background images
+== Une diapo d'intercalaire avec le fond 3
+
+== Une diapo standard
+
+[{statement}]
+Une assertion, avec *mise en avant*
+
+
+== {nbsp}
+
+Une dispo sans titre, mais avec des notes (activer le mode présentateur pour les voir, via le fichier dzslides/shells/onstage.html).
+
+[quote, Le Père Noël]
+____
+Joyeux Noël les enfants !
+____
+
+[NOTES]
+====
+Ici une note : Noël, c'est vraiment bien, on a plein de cadeaux.
+====
+
+== Formatage
+
+[{middle}]
+Un texte centré et *mis en avant* +
+ +
+ +
+[incremental pull-right]#...'qui se termine en base à droite de manière incrémentale'. {nbsp} {nbsp}#
+
+== Puces par étapes
+
+[{stepwise}]
+* Etape 1
+* Etape 2
+* Etape 3
+
+== Puces par étapes (alt)
+
+[role="incremental scatter"]
+* Etape 1
+* Etape 2
+* Etape 3
+
+[{source}]
+== Page de sources
+
+[syntax="xml"]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book lang="en">
+    <bookinfo>
+        <title>Document Title</title>
+        <date>2012-12-01</date>
+        <author>
+            <firstname>John</firstname>
+            <surname>Doe</surname>
+            <email>john.doe@example.com</email>
+        </author>
+        <authorinitials>JD</authorinitials>
+        <revhistory>
+            <revision>
+                <revnumber>1.0</revnumber>
+                <date>2012-12-01</date>
+                <authorinitials>JD</authorinitials>
+            </revision>
+        </revhistory>
+    </bookinfo>
+    <preface>
+        ...
+----
+
+[NOTES]
+====
+plus d'exemples ici : http://softwaremaniacs.org/media/soft/highlight/test.html
+====
+
+== Listes
+
+[{stepwise}]
+--
+.Unordered list
+----
+* Linux
+** Fedora
+** Ubuntu
+* Mac OSX
+* Windoze
+----
+
+.Another unordered list
+----
+.Vendors
+- Asus
+- Lenovo
+- Samsung
+----
+--
+
+== Listes (suite)
+
+[{stepwise}]
+--
+.Ordered list
+----
+. Wake up
+. Go to work
+. Write docs!
+.. Open your text editor
+.. Experience the joy of text
+. Eat cake
+----
+
+.Definition list
+----
+AsciiDoc:: advanced text-based document generation
+DocBook:: keeps a programmer busy for hours
+----
+--
+
+[{source}]
+== Liens
+
+[{stepwise}]
+--
+.Liens
+http://asciidoc.org
+
+http://asciidoc.org[AsciiDoc project]
+
+[[anchor]]Deep link
+
+<<anchor,Go to deep link>>
+--
+
+[{source}]
+== Images
+[{stepwise}]
+--
+.Inline image
+----
+image:logo.png[Logo]
+----
+// Inline images are considers as background images
+// image:logo.png[Logo]
+
+.Block image
+----
+image::images/logo.png[Logo]
+----
+image::dzslides/images/logo.png[Logo]
+
+.Block image with caption
+----
+.Screenshot
+image::images/screenshot.png[Screenshot]
+----
+.Screenshot
+image::dzslides/images/logo.png[Screenshot]
+--
+
+== HTML
+
+=== Code natif
+Possibilité d'intégrer du HTML
+
+[syntax="html"]
+----
+++++++++++++++++++
+<iframe width="560" 
+    height="315" 
+    src="http://www.youtube.com/embed/c41bAY3QGIk" 
+    frameborder="0" 
+    allowfullscreen></iframe>
+++++++++++++++++++
+----
++++++++++++++++++++++++
+<div class="center_horizontal listing">
+<iframe width="355" height="200" src="http://www.youtube.com/embed/c41bAY3QGIk?&wmode=transparent&iv_load_policy=3&enable" frameborder="0" allowfullscreen></iframe>
+</div>
++++++++++++++++++++++++
+
+[role="red3"]
+*l'inclusion de code natif pose des problèmes avec l'instruction stepwise*.
+Obligé de rajouter "?&wmode=transparent&iv_load_policy=3&enable" dans le cadre de vidéo youtube
+
+== HTML 
+
+=== Utilisation de balises via le asciidoc
+
+[{stepwise}]
+--
+----
+audio::ressources/audio/Insensatez_-_Lullaby_Of_Birdland__George_Shearing_.ogg[]
+----
+
+audio::ressources/audio/Insensatez_-_Lullaby_Of_Birdland__George_Shearing_.ogg[]
+
+Vidéo
+
+----
+video::http://www.808.dk/pics/video/gizmo.ogv[]
+----
+
+video::http://www.808.dk/pics/video/gizmo.ogv[option="controls"]
+--
+
+== HTML 
+
+=== Utilisation de balises via le asciidoc - Controles
+
+[{stepwise}]
+--
+
+http://www.methods.co.nz/asciidoc/userguide.html#X98[Référence]
+Exemple
+
+----
+.Vidéo d'exemple
+video::ressources/videos/gizmo.ogv[width=300, option="controls,autoplay"]
+----
+
+.Vidéo
+video::ressources/videos/gizmo.ogv[width=300, option="controls"]
+
+
+[role="red3"]
+*/!\Attention les médias sont lancés automatiquement par défaut, il faut rajouter dans l'url ?autoplay=0 pour ne pas avoir ce comportement.*
+
+--
+
+
+
+
+
+== Tables
+
+[{stepwise}]
+--
+.Basic table
+.Optional caption
+[options="header"]
+|====================
+|Col 1 |Col 2  |Col 3
+|1     |Item 1 |a
+|2     |Item 2 |b
+|3     |Item 3 |c
+|====================
+
+.Table from CSV
+.Contacts
+[grid="rows",format="csv"]
+[options="header",cols="^,<,<,<,>"]
+|==========================
+ID,First,Last,Address,Phone
+1,Allen,Dan,Denver,3035551212
+2,Doe,John,"Washington, D.C.",2025551212
+|==========================
+--
+
+[role="intro fond_fin"]
+== Merci d'avoir lu !
