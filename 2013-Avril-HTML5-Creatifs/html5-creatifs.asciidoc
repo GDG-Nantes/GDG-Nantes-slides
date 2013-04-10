@@ -49,7 +49,7 @@ image::images/HTML5_Logo_512.png["Logo",role="icone"]
 
 == HTML5
 
-=== Qu'est ce qu'il y a dedans ?
+=== Concrètement ?
 
 image::images/html5-infographics-features.jpg[role="html5_features"]
 
