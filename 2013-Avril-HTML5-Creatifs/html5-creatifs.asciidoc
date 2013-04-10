@@ -78,6 +78,10 @@ http://do.adive.in/
 
 == Canvas
 
+image::images/bakamap.png[height="400",role="middle"]
+
+http://www.bakamap.fr/linkedin/
+
 // Backamap
 
 == Web GL
