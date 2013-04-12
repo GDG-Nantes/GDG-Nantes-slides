@@ -10,7 +10,7 @@
 Equipe GDG Nantes
 v1.0
 :title: Soirée Workshops HTML5
-:subtitle: HTML5 Pour les créatifs
+:subtitle: HTML5 pour les créatifs
 :description: Une description.
 :copyright: Copyright 2013 GDG Nantes
 :website: http://gdgnantes.com
@@ -29,7 +29,7 @@ v1.0
 // Possibilité d'ajouter son propre css (il faut spécifier le chemin complet)
 :sqli-custom-css: css/custom.css
 
-== HTML5 Pour les créatifs ! 
+== HTML5 pour les créatifs ! 
 
 image::images/gdgnantes.png[role="gdg_accueil"]
 
@@ -113,18 +113,21 @@ image::images/gdgnantes.png[role="icone"]
 == Au programme ce soir
 
 image::images/responsive_web_design.png[role="float-left", height="75"]
+[role="padding"]
 Responsive design avec Julien Bodet +
  +
  +
  +
 
 image::images/angularjs_logo.png[role="float-left", height="75"]
-Angular JS avec Antoine Richard +
+[role="padding"]
+AngularJS avec Antoine Richard +
  +
  +
  +
 
 image::images/three_js.jpg[role="float-left", height="75"] 
+[role="padding"]
 WebGL avec Jean-François Garreau
 
 [role="intro fond_fin"]

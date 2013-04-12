@@ -82,3 +82,13 @@ img.stereolux_accueil{
   margin-top: 137px;
   top: 25%;
 }
+
+/**
+*
+* Page présentation ce soir
+*/
+
+p.padding{
+  padding-left: 180px;
+  padding-top: 20px;
+}
