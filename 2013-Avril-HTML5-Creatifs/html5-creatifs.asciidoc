@@ -42,6 +42,26 @@ image::images/logo-zenika.jpg[role="annuel_2 sponsor"]
 image::images/logoSII_333x216.gif[role="annuel_3 sponsor"]
 
 [{intro}]
+== Agenda
+
+image::images/gdgnantes.png[role="icone"]
+
+== Agenda
+=== Agenda des prochains évènements de la communauté
+
+ * 15-16 Mai 2013  :IO-Extended au Stéréolux
+ * 16-17 Mai 2013  :Web2Day au Stéréolux (Cantine Numérique)
+ * Mai : Neo4J & SoapUI (Nantes JUG)
+ * 4 Juin 2013  : \DevParty@Nantes à Epitech
+ * 13-14 Juin 2013 : BreizhCamp à Rennes
+ * 16-17 Juin 2013 : DroidConFR à Paris
+
+== \DevParty@Nantes
+
+image::images/2013_06_04_dev_party_at_nantes.png[role="stretch-y middle"] 
+
+
+[{intro}]
 == HTML5 
 === Petit retour sur les possibilités
 
