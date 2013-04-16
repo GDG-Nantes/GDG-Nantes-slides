@@ -165,7 +165,7 @@ section.intro > article > div.sect2 > h3{
   letter-spacing: 0px;
   color: darkgrey;
   margin-left: 10px;
-  width: 50%;
+  width: 100%;
   overflow: hidden;
 }
 /*Sub title of main slide or transition slides*/
@@ -287,12 +287,11 @@ section:not(.title):not(.intro) > h2 {
   padding-left: 12%;
   padding-right: 0.1em;
   padding-top: 0.1em;
-  line-height: 45px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   font-size: 45px;
-  line-height: 45px;
+  line-height: 60px;
   letter-spacing: -2px;
   color: #515151;
 }
